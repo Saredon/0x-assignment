@@ -1,0 +1,21 @@
+.fakeCircle {
+  fill: transparent;
+  stroke: transparent;
+}
+
+.circle {
+  cursor: move;
+  fill: var(--color-pomegranate);
+}
+
+@media (pointer: coarse) {
+  .circle {
+    stroke: transparent;
+    stroke-width: 30;
+  }
+}
+
+.text {
+  font-size: 14px;
+  user-select: none;
+}

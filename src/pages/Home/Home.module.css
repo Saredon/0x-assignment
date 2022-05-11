@@ -1,0 +1,10 @@
+.root {
+  position: relative;
+}
+
+.toolbar {
+  display: flex;
+  position: absolute;
+  right: var(--gap);
+  top: var(--gap);
+}

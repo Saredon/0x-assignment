@@ -1,0 +1,9 @@
+.polygon {
+  fill: none;
+  stroke: var(--color-lochmara);
+  stroke-width: 2;
+}
+
+.text {
+  font-size: 14px;
+}

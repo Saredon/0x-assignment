@@ -1,0 +1,10 @@
+.circle {
+  fill: none;
+  stroke: var(--color-candlelight);
+  stroke-width: 2;
+}
+
+.text {
+  font-size: 14px;
+  user-select: none;
+}

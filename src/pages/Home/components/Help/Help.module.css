@@ -1,0 +1,18 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  inset: 0;
+  background-color: var(--color-white);
+}
+
+.closeButton {
+  position: absolute;
+  right: var(--gap);
+  top: var(--gap);
+}
+
+.info {
+  width: min(600px, calc(100vw - (var(--gap) * 2)));
+}
